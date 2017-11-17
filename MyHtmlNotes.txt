@@ -1,0 +1,64 @@
+About HTML(Hyper Text Markup Language)--
+
+1.HTML stands for Hyper Text Markup Language
+2.HTML describes the structure of Web pages using markup.
+3.Browsers do not display the HTML tags, but use them to render the content of the page
+
+Example-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+1.The <!DOCTYPE html> declaration defines this document to be HTML5
+2.The <html> element is the root element of an HTML page
+3.The <head> element contains meta information about the document
+4.The <title> element specifies a title for the document
+5.The <body> element contains the visible page content
+6.The <h1> element defines a large heading
+7.The <p> element defines a paragraph
+
+=======================================================================================
+
+HTML BASICS-
+
+
+
+Size of Heading tags :
+
+h1 { font-size: 24px;}
+h2 { font-size: 22px;}
+h3 { font-size: 18px;}
+h4 { font-size: 16px;}
+h5 { font-size: 12px;}
+h6 { font-size: 10px;}
+
+Que1-what is em?
+Ans-An em is equivalent to the width of a letter m. Ems allow you to change the size of text relative to the size of the text in the parent element.
+for instance, if the font-size of the document is 12pt, 1em is equal to 12pt. Ems are scalable in nature, so 2em would equal 24pt, .5em would equal 6pt, etc.
+
+Que2- What is character encoding?
+Ans- a-Words and sentences in text are created from characters. Examples of characters include the Latin letter á or the Chinese ideograph 請 or the Devanagari character ह.
+	 b-Characters that are needed for a specific purpose are grouped into a character set (also called a repertoire).
+	 c-The characters are stored in the computer as one or more bytes.
+	 d-Basically, you can visualise this by assuming that all characters are stored in computers using a special code, like the ciphers used in espionage. A character encoding provides a key to unlock (ie. crack) the code. It is a set of mappings between the bytes in the computer and the characters in the character set. Without the key, the data looks like garbage.
+	 e-So, when you input text using a keyboard or in some other way, the character encoding maps characters you choose to specific bytes in computer memory, and then to display the text it reads the bytes back into characters.
+	
+Que3- Utf full form--Universal Transformation format
+
+Que4 - How to make website ressponsive in nature?
+Ans- ViewPort-The viewport is the user's visible area of a web page.The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.
+     HTML5 introduced a method to set viewport, through the <meta> tag.
+	 Ex-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+	 The width=device-width (this means we are telling to the browser “my website adapts to your device width).
+	 The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+	 The initial-scale=1.0 is a positive number between 0.0 and 10.0. It Defines the ratio between the device width (device-width in portrait mode or device-height in landscape mode) and the viewport size.
